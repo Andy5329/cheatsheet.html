@@ -1,47 +1,47 @@
 body{
-background-color: #e9abb1;
-text-align: center;
- background-color: FloralWhite;
+  background-color: #e9abb1;
+  text-align: center;
+  background-color: FloralWhite;
 }  
 table{
-  color: Ivory;
-  border: solid 0.5 px;
+ 
   margin-top:50px;
-
   
 } 
-th{
-  color: #1a364e;
-  border: solid;
-  
-}
-table, th, td {border: 1px solid black;
-}
+
 
 header{
-font: italic small-caps bold 20px/50px Georgia, serif;
-margin-bottom:50px;
-color:light-brown;
-text-align: center;
-display: relative;
-font-size: 300%;
-color: DarkGoldenRod;
+   font: italic small-caps bold 20px/50px Georgia, serif;
+   margin-bottom:50px;
+   color:light-brown;
+   text-align: center;
+   display: relative;
+   font-size: 300%;
+   color: DarkGoldenRod;
 
 }
 th {
-  height: 50px; 
-  text-align: left;
+   height: 50px; 
+   text-align: left;
    font-family: Helvetica; 
    font-size: 14px;
+   border: 1px solid ;
+   background-color: MistyRose;
+ 
+text-transform: lowercase;  
    }
+thead {
+   background-color: DarkKhaki;
+}
   .head{
   color:#663300;
   font-size:20px;
+  text-transform: capitalize; 
 }
 footer{
   text-align: center;
-display: relative;
-font-size: 100%;
-color: DarkGoldenRod;
+  display: relative;
+  font-size: 100%;
+  color: DarkGoldenRod;
 
 }

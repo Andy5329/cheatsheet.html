@@ -1,158 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Common CSS properties</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main>
-      <header>Common CSS properties</header>
-      <table>
-        <thead >
-          <tr>
-            <!--table title  -->
-           
-               <th class="head">Name</th>
-              <th class="head">Value</th>
-              <th class="head">Description</th>
-         
-          </tr>
-        </thead>
-        <!--css propertie 1-->
-        <tbody>
-          <tr>
-            <th>Border-style</th>
-            <th>{none, solid, dotted, inset, dashed solid ...}</th>
-            <th>
-              <p>to set the border on an element.</p>
-            </th>
-          </tr>
-          <!--css propertie 2-->
-          <tr>
-            <th>Background color</th>
-            <th>
-              background-color, background-image, background-repeat,
-              background-attachment, background-position
-            </th>
-            <th>
-              <p>Border property</p>
-            </th>
-          </tr>
-          <!--css propertie 3-->
-          <tr>
-            <th>width</th>
-            <th></th>
-            <th>element width</th>
-          </tr>
-          <!--css propertie 4-->
-          <tr>
-            <th>Display</th>
-            <th>{block, inline-block, inline, none}</th>
-            <th>Display behavior</th>
-          </tr>
-          <!--css propertie 5-->
-          <tr>
-            <th>Height</th>
-            <th></th>
-            <th>Element height</th>
-          </tr>
-          <!--css propertie 6-->
-          <tr>
-            <th>min-width</th>
-            <th></th>
-            <th>Minimum height</th>
-          </tr>
-          <!--css propertie 7-->
-          <tr>
-            <th>max-width</th>
-            <th></th>
-            <th>Maximum width</th>
-          </tr>
-          <!--css propertie 8-->
-          <tr>
-            <th>max-height</th>
-            <th></th>
-            <th>Maximum height</th>
-          </tr>
-          <!--css propertie 9-->
-          <tr>
-            <th>Margin</th>
-            <th></th>
-            <th>Outter margins property</th>
-          </tr>
-          <!--css propertie 10-->
-          <tr>
-            <th>Padding</th>
-            <th></th>
-            <th>inner margins property</th>
-          </tr>
-          <!--css propertie 11-->
-          <tr>
-            <th>Border</th>
-            <th></th>
-            <th>Border property</th>
-          </tr>
-          <!--css propertie 12-->
-          <tr>
-            <th>Border-color</th>
-            <th> this property can have 4 values, 3 values, 2 values, or 1 value</th>
-            <th>The border-color property sets the color of an element's four borders.</th>
-          </tr>
-          <!--css propertie 13-->
-          <tr>
-            <th>Border-width</th>
-            <th></th>
-            <th>Border-width</th>
-          </tr>
-          <!--css propertie 14-->
-          <tr>
-            <th>Border-radius</th>
-            <th></th>
-            <th>Border-radius</th>
-          </tr>
-          <!--css propertie 15-->
-          <tr>
-            <th>font</th>
-            <th></th>
-            <th>Font properties</th>
-          </tr>
-          <!--css propertie 16-->
-          <tr>
-            <th>font-family</th>
-            <th></th>
-            <th>Defines the font</th>
-          </tr>
-          <!--css propertie 17-->
-          <tr>
-            <th>font-style</th>
+body{
+  background-color: #e9abb1;
+  text-align: center;
+  background-color: FloralWhite;
+}  
+table{
+ 
+  margin-top:50px;
+  
+} 
 
-            <th>{normal, italic, oblique}</th>
-            <th>font style</th>
-          </tr>
-          <!--css propertie 18-->
-          <tr>
-            <th>font-weight</th>
 
-            <th>{normal, bold, lighter, bolder}</th>
-            <th>Thickness of the font</th>
-          </tr>
-          <!--css propertie 19-->
-          <tr>
-            <th>position</th>
+header{
+font: italic small-caps bold 20px/50px Georgia, serif;
+margin-bottom:50px;
+color:light-brown;
+text-align: center;
+display: relative;
+font-size: 300%;
+color: DarkGoldenRod;
 
-            <th>`{static, relative, absolute, fixed, sticky}`</th>
-            <th>Type of positioning used for an element</th>
-          </tr>
-          <!--css propertie 20-->
-          <tr>
-            <th>z-index</th>
+}
+th {
+  height: 50px; 
+  text-align: left;
+   font-family: Helvetica; 
+   font-size: 14px;
+   border: 1px solid ;
+   background-color: MistyRose;
+ 
+text-transform: lowercase;  
+   }
+   thead {
+  background-color: DarkKhaki;
+}
+  .head{
+  color:#663300;
+  font-size:20px;
+  text-transform: capitalize; 
+}
+footer{
+  text-align: center;
+display: relative;
+font-size: 100%;
+color: DarkGoldenRod;
 
-            <th>`{auto, -1, 0, 1, 2, 3 ...}`</th>
-            <th>Sets the order of overlapping elements</th>
-          </tr>
-        </tbody>
-      </table>
-    </main>
-    <footer>Made by Claudia Villatoro</footer>
-  </body>
-</html>
+}
